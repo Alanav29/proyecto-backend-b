@@ -49,7 +49,7 @@ public class ApplicationConfig {
         return username -> userRepository.findByEmail(username)
         .orElseThrow(()-> new UsernameNotFoundException("User not fournd"));
     }
-    
+    @Bean
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();

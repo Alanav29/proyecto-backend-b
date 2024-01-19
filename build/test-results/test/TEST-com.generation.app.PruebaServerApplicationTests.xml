@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generation.app.PruebaServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-19T01:22:06" hostname="DESKTOP-E0VR2JK" time="0.598">
+<testsuite name="com.generation.app.PruebaServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-19T02:16:42" hostname="DESKTOP-E0VR2JK" time="0.595">
   <properties/>
-  <testcase name="contextLoads()" classname="com.generation.app.PruebaServerApplicationTests" time="0.598"/>
+  <testcase name="contextLoads()" classname="com.generation.app.PruebaServerApplicationTests" time="0.595"/>
   <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-19:22:00.209 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.generation.app.PruebaServerApplicationTests]: PruebaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:22:00.356 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.generation.app.PruebaServerApplication for test class com.generation.app.PruebaServerApplicationTests
+20:16:36.689 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.generation.app.PruebaServerApplicationTests]: PruebaServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:16:36.828 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.generation.app.PruebaServerApplication for test class com.generation.app.PruebaServerApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,7 +14,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.1)
 
-2024-01-18T19:22:00.894-06:00  WARN 10672 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+2024-01-18T20:16:37.375-06:00  WARN 14480 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -23,31 +23,31 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2024-01-18T19:22:00.920-06:00  INFO 10672 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : Starting PruebaServerApplicationTests using Java 21.0.1 with PID 10672 (started by Alan in C:\Users\Alan\Documents\Generation\pruebajwtsp6\pruebaServer)
-2024-01-18T19:22:00.921-06:00  INFO 10672 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : The following 1 profile is active: "${PROFILE}"
-2024-01-18T19:22:01.888-06:00  INFO 10672 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-18T19:22:01.978-06:00  INFO 10672 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
-2024-01-18T19:22:02.632-06:00  INFO 10672 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-01-18T19:22:02.887-06:00  INFO 10672 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:097f2f13-9551-43a6-a692-6b9025191196 user=SA
-2024-01-18T19:22:02.890-06:00  INFO 10672 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-01-18T19:22:02.959-06:00  INFO 10672 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-18T19:22:03.067-06:00  INFO 10672 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
-2024-01-18T19:22:03.136-06:00  INFO 10672 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-01-18T19:22:03.482-06:00  INFO 10672 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-18T19:22:04.718-06:00  INFO 10672 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-18T19:22:04.739-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:37.406-06:00  INFO 14480 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : Starting PruebaServerApplicationTests using Java 21.0.1 with PID 14480 (started by Alan in C:\Users\Alan\Documents\Generation\pruebajwtsp6\pruebaServer)
+2024-01-18T20:16:37.407-06:00  INFO 14480 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : The following 1 profile is active: "${PROFILE}"
+2024-01-18T20:16:38.343-06:00  INFO 14480 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-18T20:16:38.432-06:00  INFO 14480 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2024-01-18T20:16:39.059-06:00  INFO 14480 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-18T20:16:39.329-06:00  INFO 14480 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:3c2587bb-4aaf-4db7-8c65-f063bab88bda user=SA
+2024-01-18T20:16:39.331-06:00  INFO 14480 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-18T20:16:39.399-06:00  INFO 14480 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-18T20:16:39.510-06:00  INFO 14480 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-18T20:16:39.570-06:00  INFO 14480 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-18T20:16:39.914-06:00  INFO 14480 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-18T20:16:41.126-06:00  INFO 14480 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-18T20:16:41.146-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     drop table if exists privileges cascade 
-2024-01-18T19:22:04.743-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.150-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     drop table if exists products cascade 
-2024-01-18T19:22:04.744-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.150-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     drop table if exists users cascade 
-2024-01-18T19:22:04.749-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.156-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     create table privileges (
         id_privilege bigint generated by default as identity,
         privilege varchar(45) not null,
         primary key (id_privilege)
     )
-2024-01-18T19:22:04.762-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.167-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     create table products (
         active boolean,
         height float(53) not null,
@@ -60,7 +60,7 @@ You may wish to exclude one of them to ensure predictable runtime behavior
         img varchar(500) not null unique,
         primary key (id_product)
     )
-2024-01-18T19:22:04.765-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.171-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     create table users (
         fk_privilege bigint not null,
         id bigint generated by default as identity,
@@ -71,15 +71,15 @@ You may wish to exclude one of them to ensure predictable runtime behavior
         password varchar(300) not null,
         primary key (id)
     )
-2024-01-18T19:22:04.768-06:00 DEBUG 10672 --- [    Test worker] org.hibernate.SQL                        : 
+2024-01-18T20:16:41.173-06:00 DEBUG 14480 --- [    Test worker] org.hibernate.SQL                        : 
     alter table if exists users 
        add constraint FK722w3cktji3ne997kbr895bke 
        foreign key (fk_privilege) 
        references privileges
-2024-01-18T19:22:04.790-06:00  INFO 10672 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-18T19:22:05.420-06:00  WARN 10672 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-01-18T19:22:05.797-06:00  INFO 10672 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1dcc0bb8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29767156, org.springframework.security.web.context.SecurityContextHolderFilter@4e3bc13b, org.springframework.security.web.header.HeaderWriterFilter@c651286, org.springframework.web.filter.CorsFilter@6f6998b6, org.springframework.security.web.authentication.logout.LogoutFilter@63d43a5, com.generation.app.jwt.JwtAuthenticationFilter@ebbbe20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e04c89d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e7dd504, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60493524, org.springframework.security.web.session.SessionManagementFilter@506654fa, org.springframework.security.web.access.ExceptionTranslationFilter@7da40bf4, org.springframework.security.web.access.intercept.AuthorizationFilter@2b33f7a0]
-2024-01-18T19:22:06.184-06:00  INFO 10672 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : Started PruebaServerApplicationTests in 5.599 seconds (process running for 7.217)
+2024-01-18T20:16:41.190-06:00  INFO 14480 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-18T20:16:41.821-06:00  WARN 14480 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-18T20:16:42.183-06:00  INFO 14480 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5825932c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@277dddcf, org.springframework.security.web.context.SecurityContextHolderFilter@5ec25b61, org.springframework.security.web.header.HeaderWriterFilter@287dde94, org.springframework.web.filter.CorsFilter@5746609e, org.springframework.security.web.authentication.logout.LogoutFilter@140fa482, com.generation.app.jwt.JwtAuthenticationFilter@2daa5092, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75708130, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c651286, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@321c01c2, org.springframework.security.web.session.SessionManagementFilter@3bf306d3, org.springframework.security.web.access.ExceptionTranslationFilter@4865434e, org.springframework.security.web.access.intercept.AuthorizationFilter@45775a15]
+2024-01-18T20:16:42.588-06:00  INFO 14480 --- [    Test worker] c.g.app.PruebaServerApplicationTests     : Started PruebaServerApplicationTests in 5.53 seconds (process running for 7.187)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Alan\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.10\90ed94ac044ea8953b224304c762316e91fd6b31\byte-buddy-agent-1.14.10.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
