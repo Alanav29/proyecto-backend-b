@@ -1,5 +1,7 @@
 package com.generation.app.serviceImpl;
 
+import java.util.Optional;
+
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -28,8 +30,11 @@ public class AuthServiceImpl implements AuthService {
     public UserDto login(User request) {
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword()));
         UserDetails user=userRepository.findByEmail(request.getUsername()).orElseThrow();
+        Optional<User> existingUser = userRepository.findByEmail(request.getEmail());
+        
         String token=jwtService.getToken(user);
-        return userServiceImpl.userToUserDto(request, token);
+        
+        return userServiceImpl.userToUserDto(existingUser.get(), token);
 
     }
 
